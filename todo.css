@@ -1,0 +1,47 @@
+body {
+  background-image: url(/images/notebook.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+span {
+  color: #0d1b2a;
+  text-transform: uppercase;
+  word-spacing: -10px;
+}
+
+.card {
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(245, 227, 195, 0.35);
+}
+
+#add {
+  background-color: tomato;
+  color: aliceblue;
+}
+
+#reset {
+  background-color: tomato;
+  color: aliceblue;
+  float: right;
+}
+
+#add:hover,
+#reset:hover {
+  background-color: orangered;
+}
+
+#delete:hover {
+  cursor: grab;
+  background-color: darkred;
+}
+
+.table {
+  font-family: "Roboto", sans-serif;
+}
